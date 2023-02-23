@@ -1,9 +1,19 @@
 <template>
-    <div>
-        <h1 class="bg-red-500 text-2xl">Cliiiiiikkkkk Mooooi</h1>
+    <main 
+        class="
+        w-screen h-screen
+        flex flex-col items-center justify-center
+        "
+    >
+        <h1 class="font-header text-2xl">Testament</h1>
         <button @click="inc">{{ count }} clicks</button>
-    </div>
+    </main>
 </template>
+
+<script>
+console.log('hellooo')
+</script>
+
 
 <script setup>
 
