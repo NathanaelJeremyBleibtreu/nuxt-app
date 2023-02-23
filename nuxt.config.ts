@@ -1,4 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    router: {base: '/nuxt-app/'}
+    target: 'static',
+    router: {
+        base: '/nuxt-app/'
+    },
+    modules: ['@nuxtjs/tailwindcss']
 })

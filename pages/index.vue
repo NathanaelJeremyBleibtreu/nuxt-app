@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Cliiiiiikkkkk Mooooi</h1>
+        <h1 class="bg-red-500 text-2xl">Cliiiiiikkkkk Mooooi</h1>
         <button @click="inc">{{ count }} clicks</button>
     </div>
 </template>
