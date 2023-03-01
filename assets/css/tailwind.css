@@ -1,0 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.navbar-item-link {
+    @apply font-header bg-rose text-lg px-3 no-underline rounded-full border-solid border border-gray-100;
+}

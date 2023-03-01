@@ -9,6 +9,11 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.4.1",
-    "nuxt": "^3.2.2"
+    "@tresjs/core": "^1.7.0",
+    "nuxt": "^3.2.2",
+    "three": "^0.134.0"
+  },
+  "dependencies": {
+    "troisjs": "^0.3.4"
   }
 }

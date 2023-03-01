@@ -1,8 +1,12 @@
 <template>
-  <div>
-    Some default layout shared across all pages
+  <main 
+        class="
+        w-screen h-screen
+        flex flex-col items-center justify-center
+        "
+    >
     <slot />
-  </div>
+  </main>
 </template>
 
 <script setup>

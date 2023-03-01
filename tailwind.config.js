@@ -1,4 +1,3 @@
-import defaultTheme from 'tailwindcss/defaultTheme'
 export default {
   theme: {
     fontFamily: {
@@ -6,7 +5,7 @@ export default {
     },
     extend: {
       colors: {
-        primary: defaultTheme.colors.green
+        rose: '#E5B3D4'
       }
     }
   }
