@@ -1,7 +1,9 @@
 <template>
-    <h1 class="font-header text-2xl">Testament</h1>
-    <button @click="inc">{{ count }} clicks</button>
-    <NuxtLink to="/map">Map</NuxtLink>
+    <Loader></Loader>
+    <div class="flex flex-col">
+        <h1 class="font-header text-2xl">Testament</h1>
+        <NuxtLink class="navbar-item-link" to="/map">Map</NuxtLink>
+    </div>
 </template>
 
 <script>

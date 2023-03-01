@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-const title = ref('My App')
+const title = ref('testament - an interactive story for the web')
 const description = ref('My App Description')
 useHead({
   title,
